@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,87 @@
   <script src="./resources/js/script.js" defer></script>
   <title>My Portfolio</title>
 </head>
+
 <body>
-  
+  <div id="portfolio">
+    <header>
+      <h1>Vîzdoagă Octavio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about-me" class="information">
+        <div id="me-info">
+          <h2>About Me</h2>
+          <p>Hi! I'm Octavio. I enjoy building websites and writing code. It's something I've loved doing for a while now, and I'm always excited to learn more. I speak English, Romanian, and Spanish. In my free time, I like playing chess, reading, and gaming. Also, I really love cats!</p>
+        </div>
+        <img src="./resources/media/me.jpg" alt="Myself">
+      </section>
+
+      <section id="projects" class="information">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>→ Coffee Menu</h3>
+          <div class="project-info">
+            <h4>Project Info</h4>
+            <p>This page is a coffee menu for a fictional coffee shop. It was built using only HTML and CSS. The images are AI generated.</p>
+            <p>View it <a href="https://octavio-js.github.io/coffee-menu/" target="_blank">here</a></p>
+          </div>
+        </div>
+        <div class="project">
+          <h3>→ Landing Page</h3>
+          <div class="project-info">
+            <h4>Project Info</h4>
+            <p>This page is a landing page for a fictional company that lets people adopt silly cats. It was built using only HTML and CSS. Beware, the page contains dangerous levels of silliness!</p>
+            <p>View it <a href="https://octavio-js.github.io/odin-landing-page/" target="_blank">here</a></p>
+          </div>
+        </div>
+        <div class="project">
+          <h3>→ Etch A Sketch</h3>
+          <div class="project-info">
+            <h4>Project Info</h4>
+            <p>This page resembles an Etch A Sketch. When you drag the mouse over the black box, the mouse leaves a colorful trail. For every square that the mouse leaves, it generates a random color. It was built using HTML, CSS and mainly JavaScript.</p>
+            <p>View it <a href="https://octavio-js.github.io/odin-etchasketch/" target="_blank">here</a></p>
+          </div>
+        </div>
+        <div class="project">
+          <h3>→ C++ Console App</h3>
+          <div class="project-info">
+            <h4>Project Info</h4>
+            <p>ChatterBox is a C++ Console App. It has a Sign up/Login system and a messaging system that lets you message other users. It also has a storage system where it stores every account and messages that were sent, so even if you close the app after signing up, you can login back into your account, continue talking to your friends and still see the messages you sent and received.</p>
+            <img src="./resources/media/sign-in-chatterbox.png" class="chatterbox-image" alt="Creating a new account in ChatterBox">
+            <p>ChatterBox ensures you have a valid username, email and password. After the account is created, the app stores the account information into the storage and you can close the app and then login into that same account!</p>
+            <img src="./resources/media/login-chatterbox.png" class="chatterbox-image" alt="Login in ChatterBox">
+            <p>When you login, the app makes sure that the name, email and password are correct. After you succesfully log in, the app loads the messages you sent and the messages you received.</p>
+            <img src="./resources/media/send-message-chatterbox.png" class="chatterbox-image" alt="Send a message with ChatterBox">
+            <p>When you send a message, the app checks if the users exists. If it does, you can send a message. After that, you can see the messages you sent along with a time stamp and to who that message was sent.</p>
+            <img src="./resources/media/receive-message-chatterbox.png" class="chatterbox-image" alt="Receive a message ChatterBox">
+            <p>You can also check the messages you received along with a time stamp and who sent you that message.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="information">
+        <h2>Skills</h2>
+        <div class="skill-container">
+          <img src="./resources/media/html.svg" alt="HTML logo" class="skill">
+          <img src="./resources/media/css.svg" alt="CSS logo" class="skill">
+          <img src="./resources/media/javascript.svg" alt="JavaScript logo" class="skill">
+          <img src="./resources/media/cpp.svg" alt="C++ logo" class="skill">
+          <img src="./resources/media/git.svg" alt="Git logo" class="skill">
+          <img src="./resources/media/bash.svg" alt="Bash logo" class="skill">
+          <img src="./resources/media/github.svg" alt="Github logo" class="skill">
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
+
 </html>
