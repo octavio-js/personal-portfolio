@@ -73,7 +73,18 @@ h1 {
   gap: 2.5rem;
 }
 
-img {
+.logo {
   width: 3.5rem;
   height: auto;
+}
+
+/*@ Animations */
+@keyframes growSize {
+  from {width: 3.5rem;}
+  to {width: 4.6875rem;}
+}
+
+@keyframes shrinkSize {
+  from{width: 4.6875rem;}
+  to {width: 3.5rem;}
 }
