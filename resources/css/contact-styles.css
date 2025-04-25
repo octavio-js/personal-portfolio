@@ -92,3 +92,41 @@ h1 {
   from{width: 4.6875rem;}
   to {width: 3.5rem;}
 }
+
+/*% Media Queries */
+@media only screen and (min-width: 400px) and (max-width: 768px){
+  html {
+    font-size: 14px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  header ul {
+    padding-left: 0;
+  }
+
+  h1 {
+    margin-right: 0;
+  }
+
+  .myself {
+    display: block;
+    width: 13rem;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 0.65rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    max-width: 3.4rem;
+  }
+}
