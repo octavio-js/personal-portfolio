@@ -36,7 +36,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(38, 38, 38);
+  color: rgb(147, 147, 147);
 }
 
 a:hover {
@@ -88,6 +88,10 @@ h1 {
 
 .project-info {
   display: none;
+}
+
+.view-project:link {
+  text-decoration: underline;
 }
 
 /*$ Skills */
